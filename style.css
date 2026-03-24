@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* header top code start here */
+
+.container{
+    width: 100%;
+    color: #07294d;
+}
+
+.container .header-content{
+    width: 100%;
+    position: fixed;
+    z-index: 70;
+}
+
+.header-content .header-top{
+    width: 100%;
+    background-color: #003049;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+}
+
+.header-top .notice a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    
+}
+
+.header-top .menu a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 0 10px;
+    border-right: 1.2px solid #fff;
+}
+
+.header-top .menu a:hover{
+    color: #bfe2aa;
+    transition: all .5s;
+}
+
+.header-top .menu a:last-child{
+    border-right: none;
+    padding-right: 0;
+}
+
+
+.header-content .header-bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+}
+
+.header-bottom .logo img{
+    width: 200px;
+}
+
+.header-bottom .nav-menu ul li{
+    display: inline-block;
+    margin: 70px 15px;
+}
+
+.nav-menu ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+    color: #000;
+    transition: all .5s;
+}
+
+.nav-menu ul li a:hover{
+    color: #5dac2f;
+}
+
+
+/* hero secotion code start here */
+
+.section-container{
+    width: 100%;
+    margin-top: -20px;
+    background: #fff6c029;
+}
+
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-content{
+    margin: 6.50rem;
+}
+
+.hero-logo{
+    padding: 10px 0;
+}
+
+.hero-title{
+    /* color: #07294d; */
+    color: #d80d5b;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.hero-description{
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+.hero-btn{
+    margin: 20px 0;
+    padding: 15px 30px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    background: rgb(21, 116, 21);
+}
+
+.hero-btn:hover{
+    background: rgb(23, 12, 34);
+    transform: translateY(-2px);
+    transition: all .3s ease;
+}
+
+
+.hero-img{
+    padding: 90px 40px;
+    border: 2px solid red;
+}
