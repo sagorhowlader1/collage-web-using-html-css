@@ -155,7 +155,7 @@ html{
 /* frist section code start here */
 
 .frist-content{
-    margin: 80px 0;
+    margin: 70px 0;
     text-align: center;
 }
 
@@ -163,8 +163,7 @@ html{
     font-size: 55px;
     font-weight: 800;
     color: #000;
-    text-decoration: underline;
-    padding: 20px 0;
+    padding: 15px 0;
 }
 
 .frist-content p{
@@ -178,24 +177,54 @@ html{
 
 .section-deprt{
     margin: 100px 0;
-    border: 2px solid red;
 }
 
 .section-items{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 25px 10px;
+    grid-gap: 25px 30px;
     margin: 60px 90px;
 }
 
+.section-item{
+    flex: 1 1 25px;
+    padding: 50px 30px;
+    border-radius: 18px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 0 10px #2a2b2b;
+}
+
+
+.section-item:hover{
+    transform: translateY(-2px);
+    transition: transform .3s ease-in-out;
+}
 
 .section-item i{
-    font-size: 50px;
+    font-size: 40px;
     color: #dcf1c3;
-    text-align: center;
 }
 
 
 .section-item a{
     margin-top: 40px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
 }
+
+.section-item a:hover{
+    color: #dcf1c3;
+    transition: transform all .5s;
+}
+
+.section-item h4{
+    font-size: 15px;
+    font-weight: 400;
+    font-weight: 300;
+}
+
+
+/* courses section code start here  */
